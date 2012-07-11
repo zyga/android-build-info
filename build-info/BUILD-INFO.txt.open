@@ -1,0 +1,5 @@
+Format-Version: 0.1
+
+Files-Pattern: *
+Build-Name: lt-snowball-x11-base
+License-Type: open

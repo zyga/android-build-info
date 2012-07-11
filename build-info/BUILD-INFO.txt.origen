@@ -1,0 +1,242 @@
+Format-Version: 0.1
+
+Files-Pattern: hwpack_linaro-leb-origen_*_armhf_supported.tar.gz
+Build-Name: leb-origen
+License-Type: protected
+Theme: samsung
+License-Text: SAMSUNG DEVELOPMENT TOOL KIT END-USER LICENSE AGREEMENT FOR LINARO DEVELOPERS (“Agreement”)
+ <p>IMPORTANT — PLEASE READ THE FOLLOWING AGREEMENT CAREFULLY.</p>
+ <p>
+   THIS IS A LEGALLY BINDING AGREEMENT BETWEEN YOU, an individual or a
+   legal entity, (“LICENSEE”) AND SAMSUNG ELECTRONICS CO.,
+   LTD. (“SAMSUNG”). BY CLICKING THE "ACCEPT" BUTTON, OR BY DOWNLOADING OR
+   INSTALLING OR OTHERWISE USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE
+   TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS
+   AGREEMENT OR ARE NOT AUTHORISED TO ACCEPT AND AGREE TO THE TERMS OF THE
+   AGREEMENT ON BEHALF OF YOUR LEGAL ENTITY, DO NOT DOWNLOAD, INSTALL OR
+   OTHERWISE USE THE SOFTWARE.
+ </p>
+ <h2>1. DEFINITIONS.</h2>
+ <p>
+   <strong>1.1 <em>"Samsung Product"</em></strong> means any of integrated
+   circuit product(s),  including but not limited to system on chip products,
+   made by or for Samsung with which the Software was designed to be used.
+ </p>
+ <p>
+   <strong>1.2 <em>"Software"</em></strong> shall mean the software in binary form
+   and all other machine readable materials that are included with such
+   software or intended for use with it, including (a) any updates or error
+   corrections and (b) any documentation including user manuals that you
+   obtain from Samsung via on-line transmission through Linaro’s official websites.
+ </p>
+ <p>
+   <strong>1.3 <em>“Use”</em></strong> means in respect of the Software,
+   the use of (including copying the Software to the extent that such
+   copying is incidental to such use, including installation, backup and
+   execution) the Software, or any part thereof. Use shall specifically
+   exclude: (i) the translation, adaptation, arrangement or other
+   alteration of the Software except as allowed by local legislation
+   implementing Article 6 of the EC Directive on the legal protection of
+   computer programs (91/250/EEC) and then only to the extent necessary to
+   achieve interoperability of an independently created program with other
+   programs; and (ii) the adapting or reverse compiling of the Software for
+   the purpose of error correction.
+ </p>
+ <h2>2. LICENSE GRANT; OWNERSHIP</h2>
+ <p>
+   <strong>2.1 License Grants.</strong> Subject to the terms and conditions
+   of this Agreement, Samsung hereby grants to Licensee, a non-exclusive,
+   non-transferable, limited license, to Use, without right to sublicense
+   or distribute, the Software, solely to the extent required in order to
+   develop and/or test Licensee software applications for use solely with
+   Samsung Product, and only if in compliance with all the provisions
+   herein.
+ </p>
+ <p>
+   <strong>2.2 Restriction on Modification.</strong> Licensee shall not
+   modify, alter, adapt, reverse engineer, decompile, disassemble the
+   Software or make any attempts to create non-licensed derivative works from
+   the Software and otherwise use the Software in any manner not specifically
+   authorized by this Agreement.
+ </p>
+ <p>
+   Licensee acknowledges that the Software may contain open source
+   software, subject to applicable open source licenses, provided by
+   Samsung for Licensee’s convenience. It is Licensee’s responsibility to
+   comply with the terms and conditions, including but not limited to any
+   modification rights, of those licenses. Source codes for these portions
+   of the Software may be obtained separately through applicable sources.
+ </p>
+ <p>
+   Except for those portions of the Software clearly specified as open
+   source, Licensee represents and warrants that it will not take any
+   action that would create obligations that would conflict with Licensee's
+   obligations hereunder, including without limitation, using the Software
+   to merge with, link to, make function calls to, or share data structures
+   with software available under an Open Source License Licensee shall
+   defend and indemnify Samsung against all liabilities, losses, damages,
+   costs and expenses relating to or arising out of a breach by Licensee of
+   the foregoing representation and warranty. Open Source Licenses
+   includes, without limitation, a software license that requires as a
+   condition of use, modification, and/or distribution of such software
+   that such software or other software incorporated into, derived from or
+   distributed with such software be (a) disclosed or distributed in source
+   code form; (b) be licensed for the purpose of making derivative works;
+   or (c) be redistributable at no charge.
+ </p>
+ <p>
+   <strong>2.3 Restriction on Distribution.</strong> Licensee shall not
+   distribute, rent, lease, and/or lend the Software and any copies thereof
+   to any third parties (individuals or legal entities).
+ </p>
+ <p>
+   <strong>2.4 Proprietary Notices.</strong>
+   Licensee shall not remove, efface or obscure any copyright or trademark
+   notices from the Software. Licensee shall include reproductions of the
+   Samsung copyright notice with each copy, if any, of the
+   Software. Licensee acknowledges that any symbols, trademarks, trade
+   names, and service marks adopted by Samsung to identify the Software
+   belong to Samsung and that Licensee shall have no rights therein.
+ </p>
+ <p>
+   <strong>2.5 Ownership.</strong>
+   Samsung and its licensors shall retain all right, title and interest,
+   including all intellectual property rights, in and to the
+   Software. Licensee hereby covenants that it will not assert any claim
+   that the Software infringes any intellectual property right owned or
+   controlled by Licensee.
+ </p>
+ <p>
+   <strong>2.6 No Other Rights Granted.</strong>
+   Apart from the license rights expressly set forth in this Agreement,
+   Samsung does not grant and Licensee does not receive any ownership
+   right, title or interest nor any security interest or other interest in
+   any intellectual property rights relating to the Software, nor in any
+   copy of any part of the foregoing.
+ </p>
+ <h2>3. NO WARRANTY OR SUPPORT</h2>
+ <p>
+   <strong>3.1 No Warranty.</strong>
+   THE SOFTWARE IS OFFERED "AS IS." SAMSUNG AND ITS LICENSORS GRANT AND
+   LICENSEE RECEIVES NO WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, BY
+   STATUTE, COMMUNICATION OR CONDUCT WITH LICENSEE, OR OTHERWISE. SAMSUNG
+   SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A SPECIFIC PURPOSE OR NONINFRINGEMENT CONCERNING THE
+   SOFTWARE. WITHOUT LIMITATION OF THE ABOVE, SAMSUNG DISCLAIMS ANY
+   WARRANTY THAT THE SOFTWARE IS BUG OR ERROR-FREE OR WILL OPERATE WITHOUT
+   INTERRUPTION, AND GRANTS NO WARRANTY REGARDING ITS USE OR THE RESULTS
+   THEREFROM INCLUDING, WITHOUT LIMITATION, ITS CORRECTNESS, ACCURACY OR
+   RELIABILITY.
+ </p>
+ <p>
+   <strong>3.2 No Support.</strong>
+   Nothing in this Agreement shall obligate Samsung to provide any support
+   for the Software. Samsung may, but shall be under no obligation to,
+   correct any defects in the Software and/or provide updates via Linaro’s
+   website. Licensee shall make reasonable efforts to promptly report to
+   Samsung any defects it finds in the Software, as an aid to creating
+   improved revisions of the Software.
+ </p>
+ <p>
+   <strong>3.3 Dangerous Applications.</strong>
+   The Software is not designed, intended, or certified for use in
+   components of systems intended for the operation of weapons, weapons
+   systems, nuclear installations, means of mass transportation, aviation,
+   life-support computers or equipment (including resuscitation equipment
+   and surgical implants), pollution control, hazardous substances
+   management, or for any other dangerous application in which the failure
+   of the Software could create a situation where personal injury or death
+   may occur. Licensee understands that use of the Software in such
+   applications is fully at the risk of Licensee.
+ </p>
+ <h2>4. TERM AND TERMINATION</h2>
+ <p>
+   <strong>4.1 Term and Termination.</strong>
+   This Agreement is effective until terminated. Samsung may immediately
+   terminate and cancel this Agreement and the licenses granted hereunder
+   upon written notice to Licensee at any time with or without
+   cause. Licensee may terminate this Agreement at any time by (i)
+   completely removing the Software and any copies thereof from its system
+   and (ii) notifying in writing Samsung of Licensee’s intent to terminate
+   this Agreement.
+ </p>
+ <p>
+   <strong>4.2 Effect of Termination.</strong> Upon any termination of this
+   Agreement, the rights and licenses granted to Licensee under this
+   Agreement shall immediately terminate. Upon termination, Licensee shall
+   destroy all copies of the Software in its possession or control and
+   cease all use.
+ </p>
+ <p>
+   <strong>4.3 Survival.</strong> The provisions of Sections 1, 2.2, 2.3,
+   2.4, 2.5, 2.6, 3, 4, 5, and 6 shall survive the termination of this
+   Agreement.
+ </p>
+ <h2>5. LIMITATION OF LIABILITY</h2>
+ <p>
+   TO THE EXTENT NOT PROHIBITED BY LAW, IN NO EVENT SHALL SAMSUNG OR ANY OF
+   SAMSUNG'S LICENSORS BE LIABLE FOR ANY LOSS, DAMAGE OR INJURY, DIRECT AND
+   INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, HOWEVER CAUSED
+   AND ON ANY THEORY OF LIABILITY, WHETHER FOR BREACH OF CONTRACT, TORT
+   (INCLUDING NEGLIGENCE) OR OTHERWISE, ARISING OUT OF THIS AGREEMENT,
+   INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, EVEN IF ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGES. THESE LIMITATIONS SHALL APPLY
+   NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED
+   REMEDY. IN ADDITION TO THE FOREGOINGS, SAMSUNG HAS NO LIABILITY TO THE
+   LICENSEEE IF THE SOFTWARE INFRINGES OR IS ALLGEDED TO INFRINGE THE RIGHT
+   OF ANY THIRD PARTY.
+ </p>
+ <h2>6. MISCELLANEOUS</h2>
+ <p>
+   <strong>6.1 Assignment.</strong> Licensee may not assign this Agreement
+   or any rights or obligation hereunder, directly or indirectly, by
+   operation of law or otherwise, without the prior written consent of
+   Samsung, and any such attempted assignment shall be void.
+ </p>
+ <p>
+   <strong>6.2 Governing Law; Venue.</strong>
+   This Agreement shall be governed by and construed in accordance with the
+   laws of the Republic of Korea, excluding conflict of laws provisions
+   which may direct the application of another jurisdiction’s laws and the
+   United Nations Convention on Contracts for the International Sale of
+   Goods. All disputes, controversies or differences which may arise out of
+   or in relation to or in connection with this Agreement, shall be shall
+   be submit to the jurisdiction of the Suwon Civil Court, Korea.
+ </p>
+ <p>
+   <strong>6.3 Severability.</strong>
+   All terms and provisions of this Agreement shall, if possible, be
+   construed in a manner which makes them valid, but in the event any term
+   or provision of this Agreement is found by a court of competent
+   jurisdiction to be illegal or unenforceable, the validity or
+   enforceability of the remainder of this Agreement shall not be affected
+   if the illegal or unenforceable provision does not materially affect the
+   intent of this Agreement. If the illegal or unenforceable provision
+   materially affects the intent of the parties to this Agreement, this
+   Agreement shall become terminated.
+ </p>
+ <p>
+   <strong>6.4 Equitable Relief.</strong>
+   Licensee hereby acknowledges that its breach of this Agreement would
+   cause irreparable harm and significant injury to Samsung that may be
+   difficult to ascertain and that a remedy at law would be
+   inadequate. Accordingly, Licensee agrees that Samsung shall have the
+   right to seek and obtain immediate injunctive relief to enforce
+   obligations under the Agreement in addition to any other rights and
+   remedies it may have.
+ </p>
+ <p>
+   <strong>6.5 Export Regulations.</strong>
+   Licensee agrees and warrants that it shall comply, at its own expense,
+   with any applicable export and import laws, restrictions, national
+   security controls and regulations.
+ </p>
+ <p>
+   <strong>6.6 Entire Agreement.</strong>
+   This Agreement sets forth the entire Agreement between Samsung and
+   Licensee relating to this subject matter.
+ </p>
+
+Files-Pattern: hwpack_linaro-leb-origen_*_armhf_supported.manifest.txt
+Build-Name: leb-origen
+License-Type: open
