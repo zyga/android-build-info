@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+"""
+Simple script to verify if a vendor tarball (aka overlay). The script does two
+things:
+
+1) It looks at build-info/Android.mk and hashes it with sha256 This way we know
+that the file is correct. By correct I mean that it simply installs
+BUILD-INFO.txt file the way we expect.
+
+If the file has incorrect checksum we return with exit code 1 with an
+appropriate error message to standard error stream.
+
+2) It looks at build-info/BUILD-INFO.txt and prints it on standard output.
+Since this is python3 we need to do the unicode dance, we assume the file is
+encoded with UTF-8. We also treat it as a windows file and replace CR LF line
+endings with LFs.
+"""
+
+import argparse
+import hashlib
+import os
+import sys
+import tarfile
+
+
+# Correct sha256 hash of the Android.mk
+correct_android_mk = "6baa3267a98511c247909d7194da45c53c2b969e09b0f219cea9a74134f6f71a"
+
+
+def tarball_sha256(tarball, name):
+    stream = tarball.extractfile(name)
+    m = hashlib.sha256()
+    m.update(stream.read())
+    return m.hexdigest()
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        formatter_class=argparse.RawTextHelpFormatter,
+        epilog=__doc__)
+    parser.add_argument(
+        "tarball", metavar="TARBALL", help="Tarball to check")
+    args = parser.parse_args()
+    if not os.path.isfile(args.tarball):
+        raise SystemExit("the argument must be a file")
+    with tarfile.open(args.tarball, "r:*") as tarball:
+        # Check Android.mk if it really installs BUILD-INFO.txt
+        android_mk = tarball_sha256(tarball, 'build-info/Android.mk')
+        if android_mk != correct_android_mk:
+            print("Android.mk sha256 checksum:", android_mk, "(WRONG)!",
+                  file=sys.stderr)
+            raise SystemExit(1)
+        # Get the license out
+        stream = tarball.extractfile('build-info/BUILD-INFO.txt')
+        print(stream.read().decode('utf-8').replace("\r\n", "\n").strip())
+
+
+if __name__ == "__main__":
+    main()
