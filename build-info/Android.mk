@@ -8,9 +8,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := build-info 
 LOCAL_MODULE_TAGS :=
 
-# Distribution policy, here it is 'open' but vendors
-# are free to use another file 
-BUILD_INFO_FILE ?= $(LOCAL_PATH)/BUILD-INFO.txt.open
+# Use the specified BUILD-INFO.txt 
+BUILD_INFO_FILE ?= $(LOCAL_PATH)/BUILD-INFO.txt
 
 # We want the BUILD-INFO.txt right next to the all
 # the tarballs in PRODUCT_OUT directory.
