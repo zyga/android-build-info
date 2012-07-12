@@ -1,7 +1,6 @@
 Format-Version: 0.1
 
 Files-Pattern: *
-Build-Name: vexpress-rtsm-isw-ics-gcc47-armlt-stable-open
 License-Type: protected
 OpenID-Launchpad-Teams: linaro-android-restricted
 
