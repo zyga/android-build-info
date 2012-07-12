@@ -1,7 +1,6 @@
 Format-Version: 0.1
 
-Files-Pattern: hwpack_linaro-lt-snowball-x11-base_*_armhf_supported.tar.gz
-Build-Name: lt-snowball-x11-base
+Files-Pattern: *.tar.gz
 License-Type: protected
 Theme: stericsson
 License-Text: SNOWBALL CLICK-WRAP LIMITED LICENSE AGREEMENT FOR APPLICATION DEVELOPERS ("Agreement") ST-Ericsson 2011-10-27
@@ -257,6 +256,5 @@ License-Text: SNOWBALL CLICK-WRAP LIMITED LICENSE AGREEMENT FOR APPLICATION DEVE
   equitable relief by a court of competent jurisdiction.
  </p>
 
-Files-Pattern: hwpack_linaro-lt-snowball-x11-base_*_armhf_supported.manifest.txt
-Build-Name: lt-snowball-x11-base
+Files-Pattern: *.manifest.txt
 License-Type: open
