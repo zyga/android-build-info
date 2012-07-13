@@ -1,7 +1,6 @@
 Format-Version: 0.1
 
-Files-Pattern: hwpack_linaro-leb-origen_*_armhf_supported.tar.gz
-Build-Name: leb-origen
+Files-Pattern: *.tar.gz
 License-Type: protected
 Theme: samsung
 License-Text: SAMSUNG DEVELOPMENT TOOL KIT END-USER LICENSE AGREEMENT FOR LINARO DEVELOPERS (“Agreement”)
@@ -237,6 +236,5 @@ License-Text: SAMSUNG DEVELOPMENT TOOL KIT END-USER LICENSE AGREEMENT FOR LINARO
    Licensee relating to this subject matter.
  </p>
 
-Files-Pattern: hwpack_linaro-leb-origen_*_armhf_supported.manifest.txt
-Build-Name: leb-origen
+Files-Pattern: *.manifest.txt
 License-Type: open
