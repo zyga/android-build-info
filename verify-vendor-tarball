@@ -49,8 +49,11 @@ def main():
     with tarfile.open(args.tarball, "r:*") as tarball:
         # Check Android.mk if it really installs BUILD-INFO.txt
         android_mk = tarball_sha256(tarball, 'build-info/Android.mk')
-        if android_mk != correct_android_mk:
-            print("Android.mk sha256 checksum:", android_mk, "(WRONG)!",
+        if android_mk is None:
+            print("build-info/Android.mk not present!")
+            raise SystemExit(1)
+        elif android_mk != correct_android_mk:
+            print("build-info/Android.mk sha256 checksum:", android_mk, "(WRONG)!",
                   file=sys.stderr)
             raise SystemExit(1)
         # Get the license out
