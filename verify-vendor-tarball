@@ -23,8 +23,12 @@ import sys
 import tarfile
 
 
-# Correct sha256 hash of the Android.mk
-correct_android_mk = "6baa3267a98511c247909d7194da45c53c2b969e09b0f219cea9a74134f6f71a"
+# Correct sha256 hash of the Android.mk's
+# The _old one is the original in the template
+# The _new one is the one that has a fixed comment and is used in all the
+# vendor tarballs
+correct_android_mk_old = "6baa3267a98511c247909d7194da45c53c2b969e09b0f219cea9a74134f6f71a"
+correct_android_mk_new = "f929f4e24651fbcc05b8f1e63dfd9a342b7b94c5f309c60a2cff7c7de1ea94b6"
 
 
 def tarball_sha256(tarball, name):
@@ -54,7 +58,8 @@ def main():
         if android_mk is None:
             print("build-info/Android.mk not present!")
             raise SystemExit(1)
-        elif android_mk != correct_android_mk:
+        elif android_mk not in (correct_android_mk_old,
+                                correct_android_mk_new):
             print("build-info/Android.mk sha256 checksum:", android_mk, "(WRONG)!",
                   file=sys.stderr)
             raise SystemExit(1)
