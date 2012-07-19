@@ -46,6 +46,8 @@ def main():
     args = parser.parse_args()
     if not os.path.isfile(args.tarball):
         raise SystemExit("the argument must be a file")
+    if not tarfile.is_tarfile(args.tarball):
+        raise SystemExit("the argument must be a tarball")
     with tarfile.open(args.tarball, "r:*") as tarball:
         # Check Android.mk if it really installs BUILD-INFO.txt
         android_mk = tarball_sha256(tarball, 'build-info/Android.mk')
