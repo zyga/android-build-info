@@ -15,4 +15,17 @@ for a particular environment:
 How to use
 ==========
 
-TBD
+Each branch of this repository other than master is meant to be applied
+directly over the vendor tarball. Each vendor tarball must thus have the new
+'build-info' directory.
+
+You *cannot* alter build-info/Android.mk in any way.
+
+You can and should change the license to something that is valid for your
+binaries. The license is present in build-info/BUILD-INFO.txt. 
+
+How to validate
+===============
+
+Each tarball must correctly pass validation by running the
+verify-vendor-tarball script that is present in the master branch.
