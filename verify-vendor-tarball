@@ -28,7 +28,10 @@ correct_android_mk = "6baa3267a98511c247909d7194da45c53c2b969e09b0f219cea9a74134
 
 
 def tarball_sha256(tarball, name):
-    stream = tarball.extractfile(name)
+    try:
+        stream = tarball.extractfile(name)
+    except KeyError:
+        return None
     m = hashlib.sha256()
     m.update(stream.read())
     return m.hexdigest()
