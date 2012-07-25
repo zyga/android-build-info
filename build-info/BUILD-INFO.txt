@@ -1,6 +1,6 @@
 Format-Version: 0.1
 
-Files-Pattern: *.tar.gz
+Files-Pattern: *.tar.*
 License-Type: protected
 Theme: samsung
 License-Text: SAMSUNG DEVELOPMENT TOOL KIT END-USER LICENSE AGREEMENT FOR LINARO DEVELOPERS (“Agreement”)
