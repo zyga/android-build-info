@@ -1,6 +1,6 @@
 Format-Version: 0.1
 
-Files-Pattern: *.tar.*
+Files-Pattern: *.tar.*, *.img
 License-Type: protected
 Theme: stericsson
 License-Text: SNOWBALL CLICK-WRAP LIMITED LICENSE AGREEMENT FOR APPLICATION DEVELOPERS ("Agreement") ST-Ericsson 2011-10-27
